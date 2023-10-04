@@ -1,6 +1,6 @@
 import { EnvelopeSimple, User } from '@phosphor-icons/react'
-import Linha from '../../../assets/Linha.png'
-import Seta from '../../../assets/seta.png'
+// import Linha from '../../../assets/Linha.png'
+// import Seta from '../../../assets/seta.png'
 import Mastercard from '../../../assets/mastercard.png'
 import American from '../../../assets/american.png'
 import Elo from '../../../assets/elo.png'
@@ -28,7 +28,7 @@ export function Footer() {
             <h2 className="font-bold lg:text-[34px] text-[26px] text-white w-[300px] md:w-[400px]">
               SEJA O PRIMEIRO A RECEBER NOSSAS OFERTAS E NOVIDADES EXCLUSIVAS!
             </h2>
-            <div className="hidden xl:flex">
+            {/* <div className="hidden xl:flex">
               <img
                 className="w-[124px] h-[67px] absolute left-[430px] bottom-6"
                 src={Linha}
@@ -39,7 +39,7 @@ export function Footer() {
                 src={Seta}
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
           <form className="flex items-center flex-col gap-8 md:w-[650px]">
             <p className="font-medium text-center text-white text-[16px] lg:text-[20px]">
